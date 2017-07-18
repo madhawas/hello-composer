@@ -13,7 +13,6 @@
             "homepage": "http://yourhomepage-if-you-have.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "mad\\HelloComposer\\": "src/"
