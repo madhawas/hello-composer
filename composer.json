@@ -1,11 +1,11 @@
 {
-    "name": "mad/hello-composer",
+    "name": "mad/hello",
     "description": "My first packagist package",
-    "type": "package",
+    "type": "library",
     "require": {
         "php": ">=5.3.0"
     },
-    "license": "mit",
+    "license": "MIT",
     "authors": [
         {
             "name": "Your Name",
@@ -16,7 +16,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "mad\\HelloComposer\\": "src/"
+            "Mad\\HelloComposer\\": "src/"
         }
     }
 }
