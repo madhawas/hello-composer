@@ -1,5 +1,5 @@
 {
-    "name": "mad/hello",
+    "name": "mad/hello-composer",
     "description": "My first packagist package",
     "type": "library",
     "require": {
@@ -16,7 +16,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Mad\\HelloComposer\\": "src/"
+            "mad\\HelloComposer\\": "src/"
         }
     }
 }
